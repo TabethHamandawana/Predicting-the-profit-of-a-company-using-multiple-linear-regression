@@ -1,0 +1,23 @@
+#Import Libraries
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+%matplotlib inline
+
+#Load the dataset and extract independant and dependant variables
+companies = pd.read_csv('C:/Users/hamandawanat/Desktop/Regression Model Project in python/1000_companies.csv')
+
+X = companies.iloc[:, :-1].values
+Y = companies.iloc[:, 4].values
+
+#List the first 5 rows of data. NB when programming the rows always start with 0. 
+companies.head()
+
+	R&D Spend	Administration	Marketing Spend	State	Profit
+0	165349.20	136897.80	471784.10	New York	192261.83
+1	162597.70	151377.59	443898.53	California	191792.06
+2	153441.51	101145.55	407934.54	Florida	191050.39
+3	144372.41	118671.85	383199.62	New York	182901.99
+4	142107.34	91391.77	366168.42	Florida	166187.94
+
