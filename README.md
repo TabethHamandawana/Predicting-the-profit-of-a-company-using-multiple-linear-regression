@@ -1,5 +1,5 @@
 # Predicting-the-profit-of-a-company-using-multiple-linear-regression
-The aim of this project is to predict the profit of a company based on various factors such as marketing spend, R&amp;D spend, administration expenses, and location. I used multiple linear regression to build a predictive model for this purpose. 
+The aim of this project was to predict the profit of a company based on various factors such as marketing spend, R&amp;D spend, administration expenses, and location. I used multiple linear regression to build a predictive model for this purpose. 
 The project will involve the following steps:
 **Data Collection**: I a collected publicly available dataset.
 **Data Preprocessing**: The dataset was clean so I didnt have to deal with missing values, outliers, or scale the data.
